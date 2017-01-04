@@ -1,6 +1,6 @@
 ---
 - name: Installation de htop
-  hosts: RPi3
+  hosts: {{ hostlist }}
   remote_user: pi
   tasks:
     - name: test
